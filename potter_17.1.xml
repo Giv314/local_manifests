@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <!--Device repos-->
   <project name="Giv314/android_device_motorola_potter-lineage-17.1" path="device/motorola/potter" remote="github" revision="lineage-17.1"/>
   <project name="ZJRDroid/kernel_motorola_potter" path="kernel/motorola/potter" remote="github" revision="ten"/>
   <project name="Giv314/vendor_motorola_potter" path="vendor/motorola/potter" remote="github" revision="ten"/>
+
+  <!--Dependencies-->
+  <project path="system/qcom" name="LineageOS/android_system_qcom" />
+
 </manifest>
